@@ -1,0 +1,149 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background: #0077b6;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .btn-login {
+    background: #00b4d8;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-login:hover {
+    background: #48cae4;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(135deg, #00b4d8, #48cae4);
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn-cta {
+    background: #0077b6;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-cta:hover {
+    background: #005f87;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .services h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #0077b6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer li {
+    margin: 0 10px;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  

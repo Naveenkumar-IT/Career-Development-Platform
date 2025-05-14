@@ -1,0 +1,77 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Full page styling */
+body {
+    background: linear-gradient(135deg, #4facfe, #00f2fe); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Dashboard container */
+.dashboard-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+}
+
+/* Welcome text */
+.dashboard-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.dashboard-container p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Profile & Settings links */
+.dashboard-container a {
+    display: inline-block;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+    margin: 10px 0;
+    transition: color 0.3s;
+}
+
+.dashboard-container a:hover {
+    color: #0056b3;
+    font-weight: bold;
+}
+
+/* Logout Button */
+.logout-btn {
+    display: inline-block;
+    background: #e74c3c;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+}
+
+.logout-btn:hover {
+    background: #c0392b;
+}
+
+/* Add some spacing for elements */
+.spacer {
+    margin: 15px 0;
+}

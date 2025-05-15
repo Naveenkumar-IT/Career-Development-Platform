@@ -105,7 +105,7 @@ The **Career Development Platform** is a web application that connects students 
 
 ## 🧠 Authors
 
-👨‍💻 Developed by : Naveenkumar-IT 
+👨‍💻 Developed by : **Naveenkumar-IT** 
 
 This project was developed as part of my Final Year Project to help bridge the skill-employment gap digitally.
 

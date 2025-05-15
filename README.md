@@ -47,4 +47,8 @@ The **Career Development Platform** is a web application that connects students 
 - **Server:** XAMPP / Apache  
 - **Version Control:** GitHub
 
+| Frontend       | Backend     | Database | Tools         |
+|----------------|-------------|----------|----------------|
+| HTML, CSS, JS  | PHP         | MySQL    | XAMPP, Chart.js |
+
 ---

@@ -49,9 +49,6 @@ The **Career Development Platform** is a web application that connects students 
 
 ---
 
-
----
-
 ## 📂 Project Structure
 
 ```bash
@@ -87,11 +84,39 @@ The **Career Development Platform** is a web application that connects students 
 
 2. **⚙️ Start XAMPP and import MySQL database**
 - Copy the project folder to htdocs/
-- Open phpMyAdmin and import the .sql file
+- Open phpMyAdmin and import the database.sql file into phpMyAdmin
+- Start Apache and MySQL from XAMPP
 
 3. **▶️ Run**
    ```bash
    http://localhost/career-development-platform/index.php
    ```
    
+---
+
+## 🔮 Future Enhancements
+
+- 💬 Add chatbot assistant
+- 📱 Mobile app version using Flutter or React Native
+- 📊 AI-based job recommendations
+- 🛡️ OAuth or social login options
+
+--- 
+
+## 🧠 Authors
+
+👨‍💻 Developed by : Naveenkumar-IT 
+
+This project was developed as part of my Final Year Project to help bridge the skill-employment gap digitally.
+
+---
+
+## 📚 License
+
+- This project is open source and available under the MIT License.
+
+---
+
+**💬 “Empowering careers, one click at a time!”**
+
 ---

@@ -75,13 +75,17 @@ The **Career Development Platform** is a web application that connects students 
 ├── /assets
 │   ├── styles.css
 │   ├── script.js
-
+```
 ---
 
 ## ⚙️ How to Run Locally
 
 1. ✅ Clone this repository:
    ```bash
-   git clone https://github.com/your-username/career-platform.git
+   git clone https://github.com/your-username/career-development-platform.git
+   ```
 
+2. ⚙️ Start XAMPP and import MySQL database
+-Copy the project folder to htdocs/
+-Open phpMyAdmin and import the .sql file
 ---

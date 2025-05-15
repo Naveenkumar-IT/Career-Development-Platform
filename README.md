@@ -49,6 +49,35 @@ The **Career Development Platform** is a web application that connects students 
 
 ---
 
+
+---
+
+## 📂 Project Structure
+
+```bash
+├── index.php
+├── db_connect.php
+├── Login.html
+├── Register.html
+├── /admin
+│   ├── dashboard.php
+│   ├── manage_users.php
+├── /user
+│   ├── dashboard.php
+│   ├── apply_job.php
+│   └── resume_upload.php
+├── /courses
+│   ├── courses.php
+│   ├── assessment.php
+├── /jobs
+│   ├── jobs.php
+│   ├── job_details.php
+├── /assets
+│   ├── styles.css
+│   ├── script.js
+
+---
+
 ## ⚙️ How to Run Locally
 
 1. ✅ Clone this repository:

@@ -47,8 +47,12 @@ The **Career Development Platform** is a web application that connects students 
 - **Server:** XAMPP / Apache  
 - **Version Control:** GitHub
 
-|          Frontend        |   Backend   | Database |     Server     | Version Control |
-|--------------------------|-------------|----------|----------------|-----------------|
-| HTML5, CSS3, JavaScript  | PHP         | MySQL    | XAMPP / Apache | Github          |
+---
+
+## ⚙️ How to Run Locally
+
+1. ✅ Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/career-platform.git
 
 ---

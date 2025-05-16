@@ -1,0 +1,120 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+/* Signup container */
+.signup-container {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input box */
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-box input, .input-box select {
+    width: 100%;
+    padding: 10px 8px;
+    font-size: 16px;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input-box input:focus, .input-box select:focus {
+    border-bottom: 2px solid #4facfe;
+}
+
+.input-box label {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    font-size: 14px;
+    color: #888;
+    pointer-events: none;
+    transition: 0.3s ease;
+}
+
+.input-box input:focus + label,
+.input-box input:not(:placeholder-shown) + label {
+    top: -15px;
+    font-size: 12px;
+    color: #4facfe;
+}
+
+/* Terms checkbox */
+.terms {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.terms p {
+    margin: 0;
+}
+
+.terms input {
+    margin-top: 5px;
+}
+
+/* Button styles */
+.signup-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background: #4facfe;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 15px;
+}
+
+.signup-btn:hover {
+    background: #00c6ff;
+}
+
+/* Footer styles */
+.signup-footer {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.signup-footer a {
+    color: #4facfe;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.signup-footer a:hover {
+    color: #00c6ff;
+}

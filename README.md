@@ -118,12 +118,12 @@ The **Career Development Platform** is a web application that connects students 
 │   ├── add_assessment.php
 │   ├── add_question.php
 │   ├── edit_question.php
+│   ├── update_applications.php
 │
 ├── 📁 jobs/
 │   ├── jobs.php
 │   ├── job_details.php
 │   ├── job_applications.php
-│   ├── update_applications.php
 │
 ├── 📁 assessments/
 │   ├── submit_assessments.php

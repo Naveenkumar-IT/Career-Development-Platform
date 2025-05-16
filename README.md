@@ -113,7 +113,7 @@ This project was developed as part of my Final Year Project to help bridge the s
 
 ## 📚 License
 
-- This project is open source and available under the MIT License.
+- This project is open source and available under the **MIT License**.
 
 ---
 
